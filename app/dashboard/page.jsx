@@ -1,4 +1,4 @@
-import Userinfo from '@/components/Userinfo'
+import Userinfo from '@/components/UserInfo'
 import React from 'react'
 
 const Dahsboard = () => {
