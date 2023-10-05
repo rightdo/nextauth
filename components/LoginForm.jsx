@@ -27,7 +27,7 @@ export default function LoginForm(){
                 return
             }
 
-            router.replace(`${homeUrl}/dashboard`)
+            router.replace("https://nextauth-eta.vercel.app/dashboard")
         } catch (error) {
             console.log(error)
         }
