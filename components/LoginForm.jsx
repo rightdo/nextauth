@@ -12,7 +12,7 @@ export default function LoginForm(){
 
     const router =useRouter()
     const homeUrl=process.env.NEXTAUTH_URL
-    
+  
 
     const handleSubmit = async (e) => {
         e.preventDefault();
