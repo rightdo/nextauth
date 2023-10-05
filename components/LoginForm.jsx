@@ -11,8 +11,6 @@ export default function LoginForm(){
     const [error, setError] = useState("")
 
     const router =useRouter()
-    const homeUrl=process.env.NEXTAUTH_URL
-  
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -27,7 +25,7 @@ export default function LoginForm(){
                 return
             }
 
-            router.replace(`${homeUrl}/dashboard`)
+            router.replace("https://nextauth-eta.vercel.app/dashboard")
         } catch (error) {
             console.log(error)
         }
